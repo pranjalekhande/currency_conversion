@@ -177,7 +177,6 @@ const supported_currencies = [
     {abbreviation: "DOT", description: "Polkadot"},
     {abbreviation: "ADA", description: "Cardano"}
 ];
-
 const isSupportedCurrency = (target) => {
     for ( let i = 0; i < supported_currencies.length; i++ ) {
         if ( supported_currencies[i].abbreviation === target ) {
@@ -186,7 +185,7 @@ const isSupportedCurrency = (target) => {
     }
     return false;
 }
-
 export {
-    isSupportedCurrency
+    isSupportedCurrency,
+    supported_currencies
 };
