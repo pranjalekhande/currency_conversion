@@ -11,7 +11,7 @@ This is a simple web application that allows users to convert amounts between di
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/currency-converter.git
+git clone https://github.com/pranjalekhande/currency_conversion.git
 cd currency-converter
 ```
 2. Install dependencies: Make sure you have Node.js and npm installed. 
